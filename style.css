@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.menu-home {
+    position: fixed;
+    width: 240px;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+}
+
+.menu-home h2 {
+    font-size: 28px;
+    color: white;
+    line-height: 70px;
+    text-align: center;
+    background: #F0803D;
+    user-select: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu-home a{
+    display: block;
+    height: 65px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    line-height: 65px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-left: 5px solid transparent;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.5s ease;
+}
